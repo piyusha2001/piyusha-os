@@ -1,0 +1,577 @@
+{
+  "name": "Piyusha Patil",
+  "handle": "piyusha",
+  "title": "MSc Computer Science @ KTH · AI / LLM Researcher · Software Engineer",
+  "location": "Stockholm, Sweden",
+  "tagline": "I build LLM systems that are cheaper, more truthful, and actually useful. I once also helped send a rocket to 10,000 ft.",
+  "bio": [
+    "I'm a Computer Science master's student at KTH Royal Institute of Technology and a Research Assistant in the ASSERT group, where I work on making LLM coding agents leaner: fewer tokens, same quality.",
+    "Before KTH I spent ~2.5 years as a Software Engineer at Protex AI (YC S21), shipping safety-intelligence products from Series A to Series B, and a year at IISc Bangalore leading ML for eVTOL aircraft simulation.",
+    "I care about LLM evaluation, hallucination detection, RAG, and agent efficiency. My hallucination-management paper won Best Paper at IEEE PuneCon 2025."
+  ],
+  "avatar": "https://github.com/piyusha2001.png",
+  "contact": {
+    "email": "ppiyusha2001@gmail.com",
+    "phone": "+46 727683139",
+    "github": "https://github.com/piyusha2001",
+    "linkedin": "https://www.linkedin.com/in/piyusha-patil-o17102001/",
+    "bio": "https://bio.link/piyusha1710"
+  },
+  "resume": "Piyusha_Patil_CV.pdf",
+  "education": [
+    {
+      "school": "KTH Royal Institute of Technology",
+      "degree": "Master of Science in Computer Science",
+      "period": "Aug 2026 – Jun 2028",
+      "location": "Stockholm, Sweden",
+      "note": "Currently enrolled"
+    },
+    {
+      "school": "Savitribai Phule Pune University",
+      "degree": "Bachelor of Engineering in Computer Engineering",
+      "period": "Aug 2019 – Jul 2023",
+      "location": "Pune, India",
+      "note": "CGPA 9.51 / 10 · 2nd in Department"
+    }
+  ],
+  "experience": [
+    {
+      "id": "kth-assert",
+      "org": "KTH Royal Institute of Technology",
+      "role": "Research Assistant · ASSERT Research Group",
+      "period": "Sep 2026 – Present",
+      "location": "Stockholm, Sweden",
+      "link": "https://assert-kth.github.io/",
+      "tags": [
+        "LLM agents",
+        "Token efficiency",
+        "SWE-bench"
+      ],
+      "points": [
+        "Researching LLM-based coding agents and inference efficiency under Prof. Martin Monperrus, contributing to SuperLean AI with the goal of reducing token consumption by 50% while preserving task performance and user experience.",
+        "Investigating tool debloating and context optimization using Jev, reducing tokens across tool definitions, descriptions, terminal commands, and agent interactions; evaluating approaches including Headroom and Ripwire.",
+        "Designing large-scale controlled experiments on SWE-bench Verified (500 real-world tasks), benchmarking agent configurations across 1,000 trials to study token efficiency, success rates, and reliability in reproducible, isolated environments."
+      ]
+    },
+    {
+      "id": "kth-ambassador",
+      "org": "KTH Royal Institute of Technology",
+      "role": "Student Ambassador · Computer Science",
+      "period": "Sep 2026 – Present",
+      "location": "Stockholm, Sweden",
+      "tags": [
+        "Outreach",
+        "Mentoring",
+        "Community"
+      ],
+      "points": [
+        "Supporting prospective and incoming students by sharing insights into studying Computer Science at KTH and student life in Stockholm.",
+        "Representing the programme at outreach activities and events, answering questions from prospective students, and communicating the academic and student experience from a current student's perspective."
+      ]
+    },
+    {
+      "id": "twiga",
+      "org": "KTH AI Society",
+      "role": "AI Developer · Project Twiga",
+      "period": "Oct 2026 – Present",
+      "location": "Stockholm, Sweden",
+      "link": "https://github.com/Tanzania-AI-Community/twiga",
+      "tags": [
+        "RAG",
+        "Open source",
+        "Data pipelines"
+      ],
+      "points": [
+        "Contributing to Twiga, an open-source, LLM-powered WhatsApp assistant for Tanzanian teachers that uses RAG to deliver curriculum-grounded answers, lesson plans, and educational content.",
+        "Optimizing the retrieval pipeline by fixing document chunking and addressing oversized chunks containing up to 90% of an entire textbook that severely limited retrieval coverage and accuracy.",
+        "Working on ingestion and data-warehousing pipelines: mathematical text segmentation, chunk reprocessing, embedding regeneration, automated chunk-size validation, and citation integrity."
+      ]
+    },
+    {
+      "id": "iisc",
+      "org": "Indian Institute of Science (IISc), Bangalore",
+      "role": "Research Intern · NMCAD Lab, Dept. of Aerospace Engineering",
+      "period": "Jul 2025 – May 2026",
+      "location": "Bengaluru, India",
+      "link": "https://github.com/piyusha2001/eVTOL-Thermal-Management-System",
+      "tags": [
+        "eVTOL",
+        "ML",
+        "Simulation"
+      ],
+      "points": [
+        "Worked on Project Urdhyuth under Prof. Dr. Dineshkumar Harursampath on the conceptual design and software simulation of eVTOL aircraft for Urban Air Mobility.",
+        "Led the Machine Learning sub-team developing intelligent safety algorithms and software-in-the-loop (SIL) simulations for avionics subsystems.",
+        "Built computational thermal models to simulate heat dissipation in embedded electronics and sensor streams, optimizing cooling strategies without physical hardware.",
+        "Led ML on battery management (SOC/SOH prediction), energy-efficient path planning and predictive maintenance; built a network reliability model with 94% precision on synthetic data."
+      ]
+    },
+    {
+      "id": "protex",
+      "org": "Protex AI (Y Combinator S21)",
+      "role": "Software Engineer I",
+      "period": "Jul 2023 – Mar 2025",
+      "location": "Dublin, Ireland (Remote)",
+      "link": "https://www.protex.ai/",
+      "tags": [
+        "Full-stack",
+        "Startup",
+        "Series A → B"
+      ],
+      "points": [
+        "Joined at Series A and helped scale the product through a high-growth phase leading to Series B. Led multiple projects end-to-end: architecture, database design, and frontend componentisation.",
+        "Built internal tools in Retool, reducing engineering dependency by 60%+ and enabling non-technical teams to operate autonomously.",
+        "Implemented multi-channel integrations (Slack, Teams, Chime) for real-time safety alerts, improving incident response time by 40%.",
+        "Engineered Auto QA Event Detection, cutting manual QA effort by 70%, and shipped email-based authentication that reduced failed logins by 16.3%.",
+        "Fixed a critical pagination bottleneck (15s → 2s load time) and reached 80% test coverage with Cypress."
+      ]
+    },
+    {
+      "id": "protex-intern",
+      "org": "Protex AI (Y Combinator S21)",
+      "role": "Software Engineering Intern",
+      "period": "Oct 2022 – Jul 2023",
+      "location": "Dublin, Ireland (Remote)",
+      "link": "https://www.protex.ai/",
+      "tags": [
+        "Vue.js",
+        "GraphQL",
+        "Frontend"
+      ],
+      "points": [
+        "Improved platform stability by fixing bugs and shipping UI enhancements.",
+        "Contributed to feature development alongside UI/UX designers, PMs and engineers, ensuring the technical feasibility of frontend designs.",
+        "Built reusable frontend components and libraries that improved development efficiency across teams.",
+        "Reviewed code and gave feedback to maintain high development standards, then converted to a full-time role."
+      ]
+    },
+    {
+      "id": "skilzen",
+      "org": "Skilzen",
+      "role": "Frontend Developer Intern · HiringBird",
+      "period": "May 2022 – Jul 2022",
+      "location": "Remote",
+      "tags": [
+        "React.js",
+        "MySQL",
+        "Dashboards"
+      ],
+      "points": [
+        "Built the Recruiter Dashboard and Admin Dashboard for Skilzen's HiringBird hiring platform.",
+        "Translated wireframes into functional React.js UI components.",
+        "Improved performance, accessibility and UI consistency across the platform."
+      ]
+    },
+    {
+      "id": "gssoc",
+      "org": "GirlScript Summer of Code",
+      "role": "Open Source Contributor",
+      "period": "Mar 2022 – May 2022",
+      "location": "Remote",
+      "tags": [
+        "Open source",
+        "Web dev",
+        "IoT"
+      ],
+      "points": [
+        "Contributed to 10+ open-source projects in web development and IoT, with 21 merged PRs.",
+        "Earned \"Top 50 Contributor\", ranking 44th among 8,000+ contributors.",
+        "Worked with React.js, Node.js, Express.js, MongoDB, JavaScript, Arduino IDE and Proteus."
+      ]
+    },
+    {
+      "id": "engineers-cradle",
+      "org": "Engineer's Cradle",
+      "role": "Frontend Web Developer Intern",
+      "period": "Dec 2021 – Feb 2022",
+      "location": "Remote",
+      "tags": [
+        "React.js",
+        "Next.js",
+        "Chakra UI"
+      ],
+      "points": [
+        "Developed UI features for an e-learning platform's web app and its Admin Dashboard.",
+        "Helped migrate the codebase from React.js to Next.js.",
+        "Converted wireframes into functional pages using Chakra UI and Ant Design, improving UX and performance."
+      ]
+    },
+    {
+      "id": "stes-lead",
+      "org": "STES Rocketry",
+      "role": "Avionics Lead",
+      "period": "Aug 2021 – Feb 2022",
+      "location": "Maharashtra, India",
+      "link": "https://www.lasc.space/past-events/3rd-lasc",
+      "tags": [
+        "Avionics",
+        "PCB design",
+        "Leadership"
+      ],
+      "points": [
+        "Led the team to 2nd place in the 0.5 km Solid Motor category and 6th overall at the Latin American Space Challenge 2021, ranking 1st nationally.",
+        "Designed a custom PCB integrating a microcontroller for sensor data collection and telemetry.",
+        "Recruited and mentored students on avionics subsystem design, Eagle schematics and PCB design; ran hands-on training on routing, vias and custom packages.",
+        "Contributed to the competition's Technical Report."
+      ]
+    },
+    {
+      "id": "stes-tech",
+      "org": "STES Rocketry",
+      "role": "Avionics Technician",
+      "period": "Jan 2021 – Aug 2021",
+      "location": "Maharashtra, India",
+      "link": "https://www.soundingrocket.org/2021-virtual-sa-cup.html",
+      "tags": [
+        "Avionics",
+        "Eagle",
+        "Telemetry"
+      ],
+      "points": [
+        "Spaceport America Cup 2021: 33rd overall internationally, 16th in 10,000 ft COTS Solid Motor, and 12th for Project Technical Report among 75 universities.",
+        "Designed and developed the rocket's avionics subsystem, including component research and integration.",
+        "Created schematics in Eagle and programmed a microcontroller for real-time telemetry and sensor data collection.",
+        "Contributed to the Project Technical Report."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Synapse AI",
+      "subtitle": "Explainable Brain Age Prediction",
+      "date": "Sep 2026",
+      "stack": [
+        "Python",
+        "XGBoost",
+        "SHAP",
+        "Streamlit"
+      ],
+      "icon": "brain",
+      "featured": true,
+      "repo": "https://github.com/piyusha2001/brain-age-prediction",
+      "points": [
+        "XGBoost brain-age model on 270 structural MRI biomarkers: MAE 7.15 years, Pearson r = 0.876 on held-out data, with bias correction and SHAP explainability.",
+        "Streamlit app combining scientific evidence retrieval with LLM-generated explanations to turn predictions into interpretable, personalized insights."
+      ]
+    },
+    {
+      "name": "Transformer From Scratch",
+      "subtitle": "Attention Is All You Need, by hand",
+      "date": "Jul 2026",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Streamlit"
+      ],
+      "icon": "layers",
+      "featured": true,
+      "repo": "https://github.com/piyusha2001/transformer-from-scratch",
+      "points": [
+        "Full Transformer implementation: multi-head attention, positional encoding, FFNs, residuals, layer norm, encoder-decoder blocks.",
+        "End-to-end English → Italian translation on OPUS Books: tokenization, batching, training, greedy decoding.",
+        "Interactive attention visualizer across layers and heads."
+      ]
+    },
+    {
+      "name": "LLM Code Evaluation Framework",
+      "subtitle": "Benchmark LLM code on HumanEval & MBPP",
+      "date": "Jul 2026",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Hugging Face"
+      ],
+      "icon": "gauge",
+      "featured": true,
+      "repo": "https://github.com/piyusha2001/llm-code-evaluation-framework",
+      "demo": "https://llm-code-evaluator.streamlit.app/",
+      "points": [
+        "Modular framework that executes LLM-generated code and scores functional correctness on HumanEval and MBPP.",
+        "Reproducible metrics, failure categorization, and JSON evaluation reports.",
+        "Dashboard for cross-model and cross-benchmark comparison."
+      ]
+    },
+    {
+      "name": "HELIOS",
+      "subtitle": "Multi-stage LLM hallucination detection",
+      "date": "Jun 2025",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Hugging Face"
+      ],
+      "icon": "sun",
+      "featured": true,
+      "points": [
+        "Hallucination detection framework combining knowledge-graph grounding, semantic validation, web verification, and deliberative reasoning.",
+        "0.79 F1 on 1.4K QA pairs with Llama-3.1-8B-Instruct; under review at ACM TIST."
+      ]
+    },
+    {
+      "name": "eVTOL Thermal Management",
+      "subtitle": "Thermal simulation for avionics electronics",
+      "date": "2025",
+      "stack": [
+        "Python",
+        "Simulation"
+      ],
+      "icon": "thermometer",
+      "featured": true,
+      "repo": "https://github.com/piyusha2001/eVTOL-Thermal-Management-System",
+      "points": [
+        "Computational thermal models for heat dissipation in embedded electronics and sensor data streams (IISc, Project Urdhyuth)."
+      ]
+    },
+    {
+      "name": "eVTOL Comms Anomaly Detection",
+      "subtitle": "Network reliability model",
+      "date": "2025",
+      "stack": [
+        "Python",
+        "Jupyter",
+        "ML"
+      ],
+      "icon": "radio",
+      "featured": true,
+      "repo": "https://github.com/piyusha2001/eVTOL-Anomaly-Detection-in-Communication-System",
+      "points": [
+        "Anomaly detection for eVTOL communication systems, with 94% precision on synthetic data."
+      ]
+    },
+    {
+      "name": "ML Algorithms From Scratch",
+      "subtitle": "Core ML with just NumPy",
+      "date": "",
+      "stack": [
+        "Python",
+        "NumPy"
+      ],
+      "icon": "sigma",
+      "repo": "https://github.com/piyusha2001/ml-algorithms-from-scratch",
+      "points": [
+        "Implementations of core machine-learning algorithms written from scratch."
+      ]
+    },
+    {
+      "name": "Pizza Delivery App",
+      "subtitle": "Full-stack ordering with admin panel ⭐ 39",
+      "date": "",
+      "stack": [
+        "MongoDB",
+        "Node.js",
+        "Express",
+        "JavaScript"
+      ],
+      "icon": "pizza",
+      "repo": "https://github.com/piyusha2001/OIBSIP_Pizza-delivery-app",
+      "points": [
+        "Full-stack pizza delivery app with user and admin panels. My most-starred repo."
+      ]
+    },
+    {
+      "name": "CauseVCare",
+      "subtitle": "Blockchain charity DApp",
+      "date": "2023",
+      "stack": [
+        "Solidity",
+        "JavaScript"
+      ],
+      "icon": "heart",
+      "repo": "https://github.com/piyusha2001/charity_dapp",
+      "points": [
+        "Charity platform for NGOs that safeguards transactions and data on-chain. Published in IRJET."
+      ]
+    },
+    {
+      "name": "ChatApp",
+      "subtitle": "Real-time chat with Socket.io",
+      "date": "",
+      "stack": [
+        "Node.js",
+        "Express",
+        "Socket.io"
+      ],
+      "icon": "message",
+      "repo": "https://github.com/piyusha2001/ChatApp",
+      "points": [
+        "Real-time chat application built with Node.js, Express and Socket.io."
+      ]
+    },
+    {
+      "name": "Global Suicide EDA",
+      "subtitle": "WHO data exploration",
+      "date": "",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Jupyter"
+      ],
+      "icon": "chart",
+      "repo": "https://github.com/piyusha2001/global-suicide-eda",
+      "points": [
+        "Exploratory analysis of how suicide rates vary across countries, ages and time, using WHO statistics."
+      ]
+    },
+    {
+      "name": "Quiz App",
+      "subtitle": "CS trivia in React + TypeScript",
+      "date": "",
+      "stack": [
+        "React",
+        "TypeScript"
+      ],
+      "icon": "help",
+      "repo": "https://github.com/piyusha2001/quiz-app",
+      "demo": "https://fun-quizz.netlify.app/",
+      "points": [
+        "A quiz app with fun computer-science questions."
+      ]
+    },
+    {
+      "name": "Smart Wallet",
+      "subtitle": "Voice-enabled expense tracker",
+      "date": "",
+      "stack": [
+        "React",
+        "JavaScript"
+      ],
+      "icon": "wallet",
+      "repo": "https://github.com/piyusha2001/smart-wallet",
+      "demo": "https://smart-wallet-money-tracker.netlify.app/",
+      "points": [
+        "Expense tracking app."
+      ]
+    },
+    {
+      "name": "Drum Kit",
+      "subtitle": "Play with clicks or keys",
+      "date": "",
+      "stack": [
+        "JavaScript"
+      ],
+      "icon": "music",
+      "repo": "https://github.com/piyusha2001/Drum-kit",
+      "demo": "https://yourdrumsolo.netlify.app/",
+      "points": [
+        "A drum kit that works on clicks and key presses. Have fun :)"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "title": "HELIOS: An Intelligent Orchestration Framework for Hallucination Detection in Large Language Models",
+      "authors": "Piyusha Patil*, Dhiaa Mejdi*, Harsh Deshpande*, Sayali Padmawar*, Dr. Aarti Agarkar*",
+      "venue": "Under review at ACM Transactions on Intelligent Systems and Technology (TIST)",
+      "year": "2025",
+      "status": "Under review",
+      "link": "https://drive.google.com/file/d/1gq8H38UKc-ijlFer2cSddxYnQZg0ESuV/view?usp=sharing",
+      "linkLabel": "Manuscript"
+    },
+    {
+      "title": "Bridging Fact and Generation: Comparative Insights into Hallucination Management in LLMs",
+      "authors": "Piyusha Patil, Harsh Deshpande, Sayali Padmawar, Ashwitha Kassetty, Dr. Aarti Agarkar",
+      "venue": "2025 IEEE Pune Section International Conference (PuneCon)",
+      "year": "2025",
+      "status": "🏆 Best Paper",
+      "link": "https://ieeexplore.ieee.org/document/11378882",
+      "linkLabel": "IEEE Xplore"
+    },
+    {
+      "title": "CauseVCare: A Blockchain-Based Charity DApp",
+      "authors": "Parth Mangalkar, Piyusha Patil, Manjusha Katkhede, Prof. Sonal Fatangare",
+      "venue": "International Research Journal of Engineering and Technology (IRJET)",
+      "year": "2023",
+      "status": "Published",
+      "link": "https://www.irjet.net/archives/V10/i5/IRJET-V10I5315.pdf",
+      "linkLabel": "Paper",
+      "code": "https://github.com/piyusha2001/charity_dapp"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Best Paper · IEEE PuneCon 2025",
+      "detail": "Security, Ethics & Governance track, for “Bridging Fact and Generation: Comparative Insights into Hallucination Management in LLMs”.",
+      "icon": "trophy",
+      "link": "https://drive.google.com/file/d/1-JEeD0ae9aGla3t3Ny0Tz-XRH4cYsmMw/view?usp=sharing"
+    },
+    {
+      "title": "2nd Rank · Bachelor of Engineering",
+      "detail": "Ranked 2nd in the Computer Engineering department at Savitribai Phule Pune University, graduating with a CGPA of 9.51 / 10.",
+      "icon": "medal",
+      "link": "https://drive.google.com/file/d/1PCoWQcJMjh7maNIcUIczS7emfAbdv1R4/view?usp=sharing"
+    },
+    {
+      "title": "KTH Student Ambassador 2026–2027",
+      "detail": "Representing KTH and supporting prospective and incoming international students.",
+      "icon": "flag"
+    },
+    {
+      "title": "Spaceport America Cup 2021",
+      "detail": "33rd overall internationally, 16th in 10,000 ft COTS Solid Motor, and 12th for Project Technical Report among 75 universities.",
+      "icon": "rocket",
+      "link": "https://www.soundingrocket.org/2021-virtual-sa-cup.html",
+      "extra": "https://drive.google.com/file/d/1jcwpGRnww1D8Fd4hs5w5v1Z3T9v-za4W/view?usp=sharing",
+      "extraLabel": "Technical Report"
+    },
+    {
+      "title": "Latin American Space Challenge 2021",
+      "detail": "2nd place in the 0.5 km Solid Motor category, 6th overall internationally and 1st nationally; featured in state-level newspapers.",
+      "icon": "rocket",
+      "link": "https://www.lasc.space/past-events/3rd-lasc",
+      "extra": "https://drive.google.com/file/d/1Du8CxbhCZmJ7BapsYczyPzJosOx2BvBf/view?usp=sharing",
+      "extraLabel": "Category"
+    },
+    {
+      "title": "Top 50 Contributor · GirlScript Summer of Code 2022",
+      "detail": "Ranked 44th among 8,000+ contributors for open-source work in web development and IoT.",
+      "icon": "git",
+      "link": "https://drive.google.com/file/d/1va76I9w59DSQWjx1wEUC_hOL3utyi817/view?usp=sharing"
+    },
+    {
+      "title": "Postman Student Leader",
+      "detail": "Ran a hands-on API literacy workshop for 200+ students and mentored peers on designing and testing REST APIs.",
+      "icon": "send",
+      "link": "https://api.badgr.io/public/assertions/JbPB2oWgSN2dg0Iu4h5DXQ"
+    }
+  ],
+  "skills": {
+    "Languages": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "Solidity",
+      "C++"
+    ],
+    "ML / AI": [
+      "PyTorch",
+      "scikit-learn",
+      "Hugging Face Transformers",
+      "MLOps",
+      "LLM evaluation",
+      "AI agents",
+      "RAG",
+      "Cursor",
+      "Claude"
+    ],
+    "Frameworks & Tools": [
+      "Node.js",
+      "React",
+      "Redux",
+      "Vue",
+      "Vuex",
+      "Express",
+      "MATLAB Simulink",
+      "Docker",
+      "DBT",
+      "AWS",
+      "Retool",
+      "Git"
+    ],
+    "Databases": [
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+      "Snowflake"
+    ]
+  }
+}
