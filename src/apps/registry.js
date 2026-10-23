@@ -1,6 +1,6 @@
 import {
   User, Briefcase, FolderGit2, BookOpen, Trophy, Cpu, TerminalSquare,
-  FileText, Mail, Settings as SettingsIcon, Trash2,
+  FileText, Mail, Settings as SettingsIcon, Trash2, Rocket, Worm,
 } from 'lucide-react';
 import About from './About.jsx';
 import Experience from './Experience.jsx';
@@ -13,6 +13,8 @@ import Resume from './Resume.jsx';
 import Contact from './Contact.jsx';
 import Settings from './Settings.jsx';
 import Trash from './Trash.jsx';
+import Apogee from './Apogee.jsx';
+import Muncher from './Muncher.jsx';
 
 // Every app on PiyushaOS. `color` is the icon tile gradient; `size` is the default window size.
 export const APPS = {
@@ -27,7 +29,9 @@ export const APPS = {
   contact:      { title: 'Contact',      icon: Mail,           color: ['#60a5fa', '#2563eb'], component: Contact,      size: [560, 520] },
   settings:     { title: 'Settings',     icon: SettingsIcon,   color: ['#9ca3af', '#4b5563'], component: Settings,     size: [560, 440] },
   trash:        { title: 'Trash',        icon: Trash2,         color: ['#6b7280', '#374151'], component: Trash,        size: [520, 380] },
+  apogee:       { title: 'Apogee',       icon: Rocket,         color: ['#38bdf8', '#6366f1'], component: Apogee,       size: [520, 620] },
+  muncher:      { title: 'Token Muncher', icon: Worm,          color: ['#f472b6', '#9333ea'], component: Muncher,      size: [680, 540] },
 };
 
-export const DESKTOP_APPS = ['about', 'experience', 'projects', 'research', 'achievements', 'skills', 'resume', 'terminal'];
+export const DESKTOP_APPS = ['about', 'experience', 'projects', 'research', 'achievements', 'skills', 'resume', 'terminal', 'apogee', 'muncher'];
 export const DOCK_APPS = ['about', 'experience', 'projects', 'research', 'achievements', 'skills', 'terminal', 'resume', 'contact', 'settings', 'trash'];

@@ -79,6 +79,7 @@ const COMMANDS = {
   research: 'publications',
   contact: 'how to reach me',
   resume: 'open my CV',
+  play: 'play a game: play apogee | play muncher',
   github: 'open GitHub in a new tab',
   linkedin: 'open LinkedIn in a new tab',
   email: 'compose an email',
@@ -206,6 +207,16 @@ export default function Terminal() {
         const id = Object.keys(APPS).find((k) => k === arg.toLowerCase() || APPS[k].title.toLowerCase() === arg.toLowerCase());
         if (id) { os.openApp(id); print(`Opening ${APPS[id].title}…`, 'dim'); }
         else print(`open: unknown app '${arg}'. Apps: ${Object.keys(APPS).join(', ')}`, 'err');
+        break;
+      }
+      case 'play': {
+        const game = { apogee: 'apogee', rocket: 'apogee', muncher: 'muncher', snake: 'muncher', tokens: 'muncher' }[arg.toLowerCase()];
+        if (game) { os.openApp(game); print(`Launching ${APPS[game].title}…`, 'dim'); }
+        else {
+          print('usage: play <game>', 'err');
+          print('  apogee    hit exactly 10,000 ft with a solid rocket motor');
+          print('  muncher   finish tasks without blowing your context window');
+        }
         break;
       }
       case 'experience':

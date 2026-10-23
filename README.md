@@ -18,6 +18,8 @@ I'm Piyusha Patil, an MSc Computer Science student at KTH Royal Institute of Tec
 | Resume.pdf | My CV, viewable and downloadable |
 | Contact | A form that drafts an email to me |
 | Settings | Wallpapers and preferences |
+| Apogee | A rocket game: burn, coast, and try to peak at exactly 10,000 ft |
+| Token Muncher | Snake for coding agents: finish tasks without overflowing a 128k context window |
 
 ### Try the terminal
 
@@ -29,6 +31,7 @@ neofetch
 cd projects && ls
 cat experience/kth-assert.md
 open research
+play apogee
 wallpaper nebula
 ```
 
